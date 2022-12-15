@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(245, 245, 245, 0.61);
+}
+
+.navbar{
+    background-color: rgba(245, 245, 245, 0.61);
+}
+
+nav .nav-link{
+    transition: all 1s;
+}
+nav .nav-link:hover,
+nav .nav-link:focus{
+    background-color: rgb(109, 109, 109);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+/* .section-2{
+    background-color: hsl(34, 78%, 91%);
+} */
+
+footer{
+    background-color: rgb(247, 236, 222);
+}
+.btn-sm{
+    background-color: orange;
+    color: black;
+}
+.btn-sm span{
+    color: black;
+}
+
+
+
+@media (min-width: 782px) and (max-width: 990px) {
+    .nimages{
+        display: block;
+    }
+}
+
